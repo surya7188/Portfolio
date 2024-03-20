@@ -51,10 +51,12 @@ ul,
 .mainIntro {
     margin-top: 90px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .mainImg img {
     border-radius: 50%;
+    margin-top: 20px;
 }
 
 .mainText {
@@ -161,4 +163,44 @@ ul,
 .pjcards2,
 .pjcards4 {
     flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: -5px;
+    }
+
+    .mainLinks .link {
+        display: none;
+    }
+
+    .pjCards-img img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+
+    .mainImg img {
+        margin-top: 50px;
+    }
+
+    .skillsBox {
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 350px;
+        border: none;
+
+    }
+
+    .mainText {
+        font-size: 20px;
+        margin: 0;
+        padding: 2px;
+        overflow: hidden;
+    }
+
+    .sCard img {
+        width: 80px;
+    }
 }
