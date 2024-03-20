@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://css.gg/css?=|instagram|twitter');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.b-font {
+    font-family: "Rubik", sans-serif;
+    font-weight: 650;
+}
+
+.n-font {
+    font-family: "Rubik", sans-serif;
+    font-weight: 450;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+
+
+
+
+li,
+a,
+ul,
+.followUs,
+.mainLinks {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    display: flex;
+    gap: 30px;
+}
+
+.navBar {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.mainIntro {
+    margin-top: 90px;
+    justify-content: space-around;
+}
+
+.mainImg img {
+    border-radius: 50%;
+}
+
+.mainText {
+    margin-top: 20px;
+}
+
+.mainText h2 {
+    font-size: 45px;
+}
+
+.mainText .p {
+    margin-top: 5px;
+    width: 500px;
+}
+
+
+
+/* Skills Box */
+
+.skillsBox {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgba(124, 124, 124, 0.219);
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.box1,
+.box2 {
+    border-right: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+}
+
+.box3 {
+    padding: 15px;
+}
+
+
+/* Skills Acquired */
+
+.head h3 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 50px;
+}
+
+.skillsAcquired {
+    flex-direction: column;
+}
+
+.skilsCard {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.skilsCard img {
+    transition: .5s;
+}
+
+.skilsCard img:hover {
+    cursor: pointer;
+    transform: translatey(-30px);
+}
+
+
+/* My Projects */
+.pjCards-img {
+    justify-content: center;
+}
+
+.pjCards {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.pjCards-text h4 {
+    margin-top: 120px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pjCards p {
+    margin: 20px;
+}
+
+.pjCards button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 12px;
+}
+
+.pjcards2,
+.pjcards4 {
+    flex-direction: row-reverse;
+}
